@@ -5,5 +5,5 @@ This repository is a prototype for a web app created in Graphic Design's Web Dev
 ## Team members
 
 - Andreane Labrosse <https://github.com/labr0110>
-- Hayley Capson <https://github.com/hcapson
+- Hayley Capson <https://github.com/hcapson>
 - Sydney Bross <https://github.com/sydbross>
