@@ -1,4 +1,5 @@
 html {
+<<<<<<< HEAD
 	box-sizing: border-box;
   color: #EDEBEB;
 }
@@ -9,4 +10,7 @@ html {
 
 .grid {
   background-color: #edebeb;
+=======
+  font-family: "Open Sans", sans-serif;
+>>>>>>> ee96a9cd40fcfde8cc7f09e9943d3f6e99c2135d
 }
