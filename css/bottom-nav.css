@@ -1,0 +1,12 @@
+html {
+	box-sizing: border-box;
+  color: #EDEBEB;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.grid {
+  background-color: #edebeb;
+}
