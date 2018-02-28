@@ -1,0 +1,38 @@
+.stats {
+}
+
+.profile-pic {
+  max-width: 200px;
+  text-align: center;
+  padding: 1em;
+}
+
+.numbers {
+  margin-bottom: 0em;
+}
+
+.numbers-title {
+  color: #ccc;
+  margin-top: 0em;
+}
+
+h1 {
+  text-align: left;
+  padding-left: 1em;
+  padding-top: .5em;
+}
+
+.tabs {
+  text-decoration: none;
+  color: #000;
+}
+
+.tab {
+  border: 1px solid #000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.closet {
+  background-color: #ccc;
+}
