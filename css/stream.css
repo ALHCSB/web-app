@@ -46,7 +46,30 @@
   color: transparent;
 }
 
+.heart-icon {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 9;
+}
+
+.picture {
+  position: relative;
+}
+
 #photo-1:checked ~ .container [for="photo-1"] {
+  color: #f32424;
+}
+
+#photo-2:checked ~ .container [for="photo-2"] {
+  color: #f32424;
+}
+
+#photo-3:checked ~ .container [for="photo-3"] {
+  color: #f32424;
+}
+
+#photo-4:checked ~ .container [for="photo-4"] {
   color: #f32424;
 }
 
