@@ -5,3 +5,23 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+.top-bar {
+  background-color: #000;
+  position: relative;
+}
+
+.cam {
+
+}
+
+.camera {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+}
+
+.flash {
+
+}
