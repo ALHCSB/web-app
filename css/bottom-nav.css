@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-  color: #EDEBEB;
+  color: #edebeb;
 }
 
 *, *::before, *::after {
@@ -9,4 +9,12 @@ html {
 
 .grid {
   background-color: #edebeb;
+}
+
+.unit {
+  padding: 1em;
+}
+
+.help {
+  max-width: 40em;
 }
