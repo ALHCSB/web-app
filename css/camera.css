@@ -1,0 +1,44 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.top-bar {
+  background-color: #000;
+  padding: 0.75em;
+  position: relative;
+}
+
+.camera {
+  right: 3%;
+  top: 15%;
+  align-content: center;
+  position: absolute;
+}
+
+.cam-button {
+  bottom: 10%;
+  right: -100%;
+}
+
+.photo {
+  position: relative;
+}
+
+.grid {
+  padding: 0.75em;
+}
+
+.bottom-bar {
+  font-family: sans-serif;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+}
+
+.bottom {
+
+}
