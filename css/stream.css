@@ -41,3 +41,17 @@
   font-weight: bold;
   line-height: .3em;
 }
+
+.like-button {
+  color: transparent;
+}
+
+#photo-1:checked ~ .container [for="photo-1"] {
+  color: #f32424;
+}
+
+.like-check {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
