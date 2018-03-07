@@ -8,27 +8,37 @@ html {
 
 .top-bar {
   background-color: #000;
-  position: relative;
-}
-
-.cam-button {
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  left: 50%;
-}
-
-.cam {
+  padding: 0.75em;
   position: relative;
 }
 
 .camera {
+  right: 3%;
+  top: 15%;
+  align-content: center;
   position: absolute;
-  right: 0;
-  top: 0;
-}
 }
 
-.flash {
+.cam-button {
+  bottom: 10%;
+  right: -100%;
+}
+
+.photo {
+  position: relative;
+}
+
+.grid {
+  padding: 0.75em;
+}
+
+.bottom-bar {
+  font-family: sans-serif;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+}
+
+.bottom {
 
 }
