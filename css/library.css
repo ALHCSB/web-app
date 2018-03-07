@@ -20,7 +20,7 @@ html {
 .photo {
   width: 100vw;
   height: 100vh;
-  background-image: url("..images/library.png");
+  background-image: url("../images/library.png");
   background-size: cover;
   background-position: center top;
 }
