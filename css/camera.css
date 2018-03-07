@@ -8,21 +8,20 @@ html {
 
 .top-bar {
   background-color: #000;
-  padding: 0.75em;
+  padding: 0.25em;
   position: relative;
   width: 100%;
 }
 
-.camera {
-  right: 3%;
-  top: 20%;
-  position: absolute;
+.top-bar div {
+  height: 32px;
 }
-
 .photo {
-  position: relative;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/camera-pic.jpg");
+  background-size: cover;
+  background-position: center top;
 }
 
 .bottom-bar {
@@ -34,7 +33,6 @@ html {
 }
 
 .grid {
-  padding: 1.25em;
   width: 100%;
   text-align: center;
   background-color: #fff;
@@ -46,4 +44,9 @@ html {
 
 .button {
   margin: 0;
+  padding: 1em;
+}
+
+.hl {
+  background-color: #DCDCDC;
 }
