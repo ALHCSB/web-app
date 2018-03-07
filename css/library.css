@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.top-bar {
+  background-color: #000;
+  padding: 0.25em;
+  position: relative;
+  width: 100%;
+}
+
+.top-bar div {
+  height: 32px;
+}
+
+.photo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/library.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+.bottom-bar {
+  font-family: sans-serif;
+  bottom: -0%;
+  position: absolute;
+  color: #000;
+  width: 100%;
+}
+
+.grid {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.button {
+  margin: 0;
+  padding: 1em;
+}
+
+.hl {
+  background-color: #DCDCDC;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
