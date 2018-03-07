@@ -1,0 +1,34 @@
+.logo {
+  padding: 1em;
+  width: 70%;
+  max-width: 100px;
+}
+
+.header {
+  background-color: #ededed;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.search-bar {
+  max-width: 250px;
+  text-align: center;
+  padding-right: .5em;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #a9a9a9;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 38em) {
+  .nav-links {
+    display: block;
+    text-align: right;
+  }
+
+}
