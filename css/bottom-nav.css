@@ -1,20 +1,4 @@
-html {
-	box-sizing: border-box;
-  color: #edebeb;
-}
-
-*, *::before, *::after {
-	box-sizing: inherit;
-}
-
-.grid {
-  background-color: #edebeb;
-}
-
-.unit {
-  padding: 1em;
-}
 
 .help {
-  max-width: 40em;
+  background-color: #EDEDED;
 }

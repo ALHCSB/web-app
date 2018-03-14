@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 </head>
 <body>
+
   <header>
     <nav>
       <div class="grid header grid-middle pad-t-1">
@@ -31,42 +32,27 @@
           <a href="profile.html">Closet</a>
         </div>
       </div>
-
-      <div class="grid grid-middle text-center pad-b-2">
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-          <h1 class="text-center tera pad-t-2">Hayley Capson</h1>
-        </div>
-        <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-          <img class="profile-pic" src="images/profile-pic.png" alt>
-        </div>
-        <div class="unit stats xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-          <strong><p class="numbers giga">32</p></strong>
-          <p class="numbers-title micro">outfits</p>
-        </div>
-        <div class="unit stats xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-          <strong><p class="numbers giga">438</p></strong>
-          <p class="numbers-title micro">followers</p>
-        </div>
-        <div class="unit stats xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-          <strong><p class="numbers giga">231</p></strong>
-          <p class="numbers-title micro">likes</p>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="unit tab closet xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-          <a class="tabs milli" href="profile.html">closet</a>
-        </div>
-        <div class="unit tab likes xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-          <a class="tabs milli" href="likes.html">likes</a>
-        </div>
-      </div>
     </nav>
   </header>
 
+  <svg hidden>
+    <symbol id="heart" viewBox="0 0 396.8 369.5">
+      <path stroke="#f32424" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" d="M197.7 349.8l.6-.2c3.1-3.9 6-7.9 9.1-11.8 19.4-24.8 41.8-46.6 65.1-67.6 21.4-19.3 43.5-37.7 62.9-59.1s35.5-47.8 38.4-78.9c1.2-13.5.7-26.8-3.6-39.7-12.3-37.3-45.7-61.9-85.1-61.9-24.8 0-46 9.4-63.6 27-9.2 9.3-15.1 20.6-20.8 32.2-.8 1.4-1.6 2.8-2.6 4.8-3.1-6-5.9-11.5-8.8-16.9-19.5-36.2-59.6-54-98.5-44.7-27.9 6.6-48.2 23.2-60.6 49.1-6.4 13.3-8.7 27.4-8.2 42a126.2 126.2 0 0 0 11.4 49.5c9.2 20.1 23 36.7 38.7 51.8s31.5 29 47.6 43.3c24 21.3 47.5 43.3 67.9 68.4z"/>
+    </symbol>
+  </svg>
+
   <div class="grid grid-middle container max-length push">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-      <div class="picture">
-        <a itemprop="casestudy" class="block relative" href="one.html">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island relative">
+    <input class="like-check" type="checkbox" id="photo-1">
+    <div class="picture">
+      <label class="like-button"for="photo-1">
+        <i class="icon i-32 heart-icon">
+          <svg>
+            <use xlink:href="#heart"></use>
+          </svg>
+        </i>
+      </label>
+      <a itemprop="casestudy" class="block relative" href="one.html">
         <img itemprop="image" class="img-flex" src="images/photo-1.jpg" alt="">
         <div class="absolute">
           <h3 class="name">Emily Smith</h3>
@@ -75,8 +61,16 @@
     </div>
   </div>
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island relative">
+    <input class="like-check" type="checkbox" id="photo-2">
     <div class="picture">
+      <label class="like-button"for="photo-2">
+        <i class="icon i-32 heart-icon">
+          <svg>
+            <use xlink:href="#heart"></use>
+          </svg>
+        </i>
+      </label>
       <a itemprop="image" class="block relative" href="two.html">
         <img itemprop="image" class="img-flex" src="images/photo-2.jpg" alt="">
         <div class="absolute">
@@ -86,8 +80,16 @@
     </div>
   </div>
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island relative">
+    <input class="like-check" type="checkbox" id="photo-3">
     <div class="picture">
+      <label class="like-button"for="photo-3">
+        <i class="icon i-32 heart-icon">
+          <svg>
+            <use xlink:href="#heart"></use>
+          </svg>
+        </i>
+      </label>
       <a itemprop="image" class="block relative" href="three.html">
         <img itemprop="image" class="img-flex" src="images/photo-4.jpeg" alt="">
         <div class="absolute">
@@ -96,8 +98,17 @@
       </a>
     </div>
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island relative">
+    <input class="like-check" type="checkbox" id="photo-4">
     <div class="picture">
+      <label class="like-button"for="photo-4">
+        <i class="icon i-32 heart-icon">
+          <svg>
+            <use xlink:href="#heart"></use>
+          </svg>
+        </i>
+      </label>
       <a itemprop="image" class="block relative" href="four.html">
         <img itemprop="image" class="img-flex" src="images/photo-3.jpeg" alt="">
         <div class="absolute">

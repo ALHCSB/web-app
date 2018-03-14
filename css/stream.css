@@ -1,3 +1,7 @@
+html {
+  font-family: 'Open Sans',sans-serif;
+}
+
 .name {
   color: #9e9e9e;
   font-size: .7em;
@@ -57,24 +61,25 @@
   position: relative;
 }
 
-#photo-1:checked ~ .container [for="photo-1"] {
+#photo-1:checked ~ .picture [for="photo-1"] {
   color: #f32424;
 }
 
-#photo-2:checked ~ .container [for="photo-2"] {
+#photo-2:checked ~ .picture [for="photo-2"] {
   color: #f32424;
 }
 
-#photo-3:checked ~ .container [for="photo-3"] {
+#photo-3:checked ~ .picture [for="photo-3"] {
   color: #f32424;
 }
 
-#photo-4:checked ~ .container [for="photo-4"] {
+#photo-4:checked ~ .picture [for="photo-4"] {
   color: #f32424;
 }
 
 .like-check {
   position: absolute;
-  left: -100px;
-  top: -100px;
+  right: 0px;
+  top: 0px;
+  opacity: 0;
 }

@@ -5,8 +5,8 @@
 }
 
 .header {
-  background-color: #ededed;
-  border-bottom: 1px solid #a9a9a9;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #EDEDED;
 }
 
 .search-bar {
@@ -21,14 +21,14 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #a9a9a9;
-  padding: 1em;
+  color: #000000;
+  padding: .5em;
 }
 
 @media only screen and (min-width: 38em) {
   .nav-links {
     display: block;
-    text-align: right;
+    text-align: center;
   }
 
 }
